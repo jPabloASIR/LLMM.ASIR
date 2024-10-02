@@ -3,7 +3,7 @@
 
 <h1>My first SVG</h1>
 
-<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+<svg width="10" height="10">
   <circle cx="5" cy="5" r="4" stroke="green" stroke-width="1" fill="yellow" />
 </svg>
 
