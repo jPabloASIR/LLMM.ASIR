@@ -15,5 +15,5 @@ LMSGI_02_Actividades | Descripción
 [Ejercicio2](tema1/Ejercicio2.html) | Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto
 [Ejercicio3](tema1/Ejercicio3.html) | Crea una página con texto con indicaciones específicas
 [Ejercicio4](tema1/Ejercicio4.html) | Crea una página html mostrando los códigos
-[Ejercicio5](tema1/Ejercicio5-6.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados, además, incluye distintos formatos de texto
+[Ejercicio5-6](tema1/Ejercicio5-6.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados, además, incluye distintos formatos de texto
 
