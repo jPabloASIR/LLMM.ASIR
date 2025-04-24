@@ -17,3 +17,7 @@ LMSGI_02_Actividades | Descripción
 [Ejercicio4](tema1/Ejercicio4.html) | Crea una página html mostrando los códigos
 [Ejercicio5-6-7](tema1/Ejercicio5-6-7.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados, además, incluye distintos formatos de texto y fondo
 
+
+## DOM
+Link al repositorio | Descripción
+----------|------------
