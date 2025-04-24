@@ -18,7 +18,17 @@ LMSGI_02_Actividades | Descripción
 [Ejercicio5-6-7](tema1/Ejercicio5-6-7.html) | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados, además, incluye distintos formatos de texto y fondo
 
 
+## JAVASCRIPT
+Link al repositorio | Descripción
+----------|------------
+[Repositorio](https://github.com/jPabloASIR/JS_Actividades) | Enlace al repositorio con los ejercicios de Javascript
+
+
 ## DOM
 Link al repositorio | Descripción
 ----------|------------
 [Repositorio](https://github.com/jPabloASIR/DOM) | Enlace al repositorio con los ejercicios de DOM
+
+
+
+
