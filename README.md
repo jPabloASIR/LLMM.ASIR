@@ -21,3 +21,4 @@ LMSGI_02_Actividades | Descripción
 ## DOM
 Link al repositorio | Descripción
 ----------|------------
+[Repositorio](https://github.com/jPabloASIR/DOM) | Enlace al repositorio con los ejercicios de DOM
