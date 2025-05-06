@@ -31,5 +31,5 @@ Link al repositorio | Descripción
 
 
 ## XML
-Link al repositorio | Trabajo de Quiz de 3ºTrimestre
+Link al repositorio | Trabajo Quiz de 3ºTrimestre
 
