@@ -47,8 +47,7 @@ Ejercicio | Descripción
 [Ejercicio13](Acts.3Tr/Ex13.html) | Ejercicio JSON 1
 [Ejercicio14](Acts.3Tr/Ex14.html) | Ejercicio JSON 2
 [Ejercicio15](Acts.3Tr/Ex15.html) | Ejercicio JSON 3
-[Ejercicio16](Acts.3Tr/Ex16.html) | Ejercicio JSON 4
-[Ejercicio17](Acts.3Tr/Ex17.html) | Ejercicio JSON 5
+[Ejercicio16](Acts.3Tr/Ex16.html) | Ejercicio RSS
 
 
 ## XML
