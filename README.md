@@ -40,6 +40,10 @@ Ejercicio | Descripción
 [Ejercicio6](Acts.3Tr/Ex6.xml) | Ejercicio XML 6
 [Ejercicio7](Acts.3Tr/Ex7.xml) | Ejercicio XML 7
 [Ejercicio8](Acts.3Tr/index.html) | Ejercicio XML-DOM 1
+[Ejercicio9](Acts.3Tr/Ex9.html) | Ejercicio XML-DOM 2
+[Ejercicio10](Acts.3Tr/Ex10.html) | Ejercicio XML-DOM 3
+[Ejercicio11](Acts.3Tr/Ex11.html) | Ejercicio AJAX 1
+[Ejercicio11](Acts.3Tr/Ex12.html) | Ejercicio AJAX 2
 
 
 ## XML
