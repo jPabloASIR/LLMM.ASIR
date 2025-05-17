@@ -33,6 +33,12 @@ Link al repositorio | Descripción
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](Acts.3Tr/Ex1.xml) | Ejercicio XML 1
+[Ejercicio2](Acts.3Tr/Ex2.xml) | Ejercicio XML 2
+[Ejercicio3](Acts.3Tr/Ex3.xml) | Ejercicio XML 3
+[Ejercicio4](Acts.3Tr/Ex4.xml) | Ejercicio XML 4
+[Ejercicio5](Acts.3Tr/Ex5.xml) | Ejercicio XML 5
+[Ejercicio6](Acts.3Tr/Ex6.xml) | Ejercicio XML 6
+[Ejercicio7](Acts.3Tr/Ex7.xml) | Ejercicio XML 7
 
 
 ## XML
