@@ -39,6 +39,7 @@ Ejercicio | Descripción
 [Ejercicio5](Acts.3Tr/Ex5.xml) | Ejercicio XML 5
 [Ejercicio6](Acts.3Tr/Ex6.xml) | Ejercicio XML 6
 [Ejercicio7](Acts.3Tr/Ex7.xml) | Ejercicio XML 7
+[Ejercicio8](Acts.3Tr/index.html) | Ejercicio XML-DOM 1
 
 
 ## XML
