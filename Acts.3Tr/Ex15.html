@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NASA APOD Example</title>
+  <style>
+    #apod-img {
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>NASA Astronomy Picture Of the Day (APOD)</h2>
+
+<button onclick="loadNASA()">Cargar datos NASA (01-05-2020)</button>
+
+<p><strong>Fecha:</strong> <span id="date"></span></p>
+<p><strong>Explicación:</strong> <span id="explanation"></span></p>
+<p><strong>URL:</strong> <a href="#" target="_blank" id="url"></a></p>
+<img id="apod-img" src="" alt="Imagen NASA">
+
+<script>
+function loadNASA() {
+  const xhttp = new XMLHttpRequest();
+  const apiURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2020-05-01";
+
+  xhttp.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      const response = JSON.parse(this.responseText);
+
+      document.getElementById("date").textContent = response.date;
+      document.getElementById("explanation").textContent = response.explanation;
+
+      const urlElem = document.getElementById("url");
+      urlElem.textContent = response.url;
+      urlElem.href = response.url;
+
+      const imgElem = document.getElementById("apod-img");
+      imgElem.src = response.url;
+      imgElem.alt = response.title || "NASA APOD Image";
+    }
+  };
+
+  xhttp.open("GET", apiURL, true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>

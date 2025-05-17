@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Array Example</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Leer un archivo JSON con XMLHttpRequest</h2>
+
+<p><strong>Longitud del array:</strong> <span id="longitud"></span></p>
+<table id="tabla">
+  <tr><th>Marca</th></tr>
+</table>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myArr = JSON.parse(this.responseText);
+
+  // Mostrar longitud
+  document.getElementById("longitud").textContent = myArr.length;
+
+  // Construir tabla
+  let tabla = "";
+  for (let i = 0; i < myArr.length; i++) {
+    tabla += "<tr><td>" + myArr[i] + "</td></tr>";
+  }
+  document.getElementById("tabla").innerHTML += tabla;
+};
+
+xmlhttp.open("GET", "json_demo.txt");  // Este archivo debe contener: ["Ford", "BMW", "Audi", "Fiat"]
+xmlhttp.send();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+  <CD>
+    <title>Thriller</title>
+    <artist>Michael Jackson</artist>
+    <year>1982</year>
+    <category>Pop</category>
+    <tracks>
+      <track>
+        <number>1</number>
+        <title>Wanna Be Startin' Somethin'</title>
+        <duration>6:03</duration>
+      </track>
+      <track>
+        <number>2</number>
+        <title>Baby Be Mine</title>
+        <duration>4:20</duration>
+      </track>
+      <track>
+        <number>3</number>
+        <title>The Girl Is Mine</title>
+        <duration>3:42</duration>
+      </track>
+    </tracks>
+  </CD>
+</CDList>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+  <CD serial="B6B41B" disc-length="36:55">
+    <!-- This CD has more tracks than in this file -->
+    <title>Thriller</title>
+    <artist>Michael Jackson</artist>
+    <year>1982</year>
+    <category>Pop</category>
+    <tracks>
+      <track>
+        <number>1</number>
+        <title>Wanna Be Startin' Somethin'</title>
+        <duration>6:03</duration>
+      </track>
+      <track>
+        <number>2</number>
+        <title>Baby Be Mine</title>
+        <duration>4:20</duration>
+      </track>
+      <track>
+        <number>3</number>
+        <title>The Girl Is Mine</title>
+        <duration>3:42</duration>
+      </track>
+    </tracks>
+  </CD>
+</CDList>

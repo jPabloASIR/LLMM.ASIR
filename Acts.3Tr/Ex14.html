@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JSON Exercise 4</h2>
+
+<button onclick="loadData()">Cargar datos JSON</button>
+
+<p id="demo"></p>
+<p id="demoPets"></p>
+<p id="demoAll"></p>
+<p id="demoTable"></p>
+
+<script>
+function loadData() {
+  const xmlhttp = new XMLHttpRequest();
+  xmlhttp.onload = function() {
+    const myObj = JSON.parse(this.responseText);
+    
+    // Muestra edad
+    let output = "Edad: " + myObj.age + "<br>";
+
+    // Primer elemento pets: tipo y nombre
+    if(myObj.pets.length > 0) {
+      output += "Primer mascota - Tipo: " + myObj.pets[0].type + "<br>";
+      output += "Primer mascota - Nombre: " + myObj.pets[0].name + "<br>";
+    }
+
+    // Número de mascotas
+    output += "Número de mascotas: " + myObj.pets.length + "<br>";
+
+    document.getElementById("demo").innerHTML = output;
+
+    // Mostrar el nombre de todas las mascotas
+    let txt = "Nombres de todas las mascotas:<br>";
+    for(let i = 0; i < myObj.pets.length; i++) {
+      txt += myObj.pets[i].name + "<br>";
+    }
+    document.getElementById("demoPets").innerHTML = txt;
+
+    // Mostrar todos los datos en un párrafo
+    let allData = "Nombre: " + myObj.name + ", Edad: " + myObj.age + ", Ciudad: " + myObj.city + "<br>";
+    allData += "Mascotas:<br>";
+    for(let pet of myObj.pets) {
+      allData += pet.name + " (" + pet.type + ")<br>";
+    }
+    document.getElementById("demoAll").innerHTML = allData;
+
+    // Mostrar los datos usando una tabla
+    let table = "<table border='1'><tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>";
+    table += "<tr><td>" + myObj.name + "</td><td>" + myObj.age + "</td><td>" + myObj.city + "</td></tr></table>";
+
+    table += "<br><table border='1'><tr><th>Nombre Mascota</th><th>Tipo Mascota</th></tr>";
+    for(let pet of myObj.pets) {
+      table += "<tr><td>" + pet.name + "</td><td>" + pet.type + "</td></tr>";
+    }
+    table += "</table>";
+
+    document.getElementById("demoTable").innerHTML = table;
+  }
+  xmlhttp.open("GET", "https://www.w3schools.com/js/json_demo.txt");
+  xmlhttp.send();
+}
+</script>
+
+</body>
+</html>

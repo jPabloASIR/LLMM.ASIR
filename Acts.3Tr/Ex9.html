@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de CDs</title>
+</head>
+<body>
+  <h2>Catálogo de CDs desde XML</h2>
+
+  <button onclick="mostrarTitulos()">Mostrar Títulos</button>
+  <button onclick="mostrarPrecios()">Mostrar Precios</button>
+  <button onclick="mostrarCompanias()">Mostrar Compañías</button>
+  <button onclick="mostrarTodo()">Mostrar Título + Artista + Precio</button>
+
+  <p id="demo"></p>
+
+  <script>
+    let xmlDoc = null;
+
+    // Cargar el XML usando AJAX
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      xmlDoc = this.responseXML;
+    }
+    xhttp.open("GET", "https://www.w3schools.com/js/cd_catalog.xml");
+    xhttp.send();
+
+    // Mostrar todos los títulos
+    function mostrarTitulos() {
+      let titulos = "";
+      const nodos = xmlDoc.getElementsByTagName("TITLE");
+      for (let i = 0; i < nodos.length; i++) {
+        titulos += nodos[i].childNodes[0].nodeValue + "<br>";
+      }
+      document.getElementById("demo").innerHTML = "<h3>Títulos</h3>" + titulos;
+    }
+
+    // Mostrar todos los precios
+    function mostrarPrecios() {
+      let precios = "";
+      const nodos = xmlDoc.getElementsByTagName("PRICE");
+      for (let i = 0; i < nodos.length; i++) {
+        precios += nodos[i].childNodes[0].nodeValue + "€<br>";
+      }
+      document.getElementById("demo").innerHTML = "<h3>Precios</h3>" + precios;
+    }
+
+    // Mostrar todas las compañías
+    function mostrarCompanias() {
+      let companias = "";
+      const nodos = xmlDoc.getElementsByTagName("COMPANY");
+      for (let i = 0; i < nodos.length; i++) {
+        companias += nodos[i].childNodes[0].nodeValue + "<br>";
+      }
+      document.getElementById("demo").innerHTML = "<h3>Compañías</h3>" + companias;
+    }
+
+    // Mostrar título + artista + precio
+    function mostrarTodo() {
+      let txt = "";
+      const cds = xmlDoc.getElementsByTagName("CD");
+      for (let i = 0; i < cds.length; i++) {
+        const title = cds[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+        const artist = cds[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue;
+        const price = cds[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+        txt += `<strong>${title}</strong> - (${artist}) - ${price}€<br>`;
+      }
+      document.getElementById("demo").innerHTML = "<h3>Detalles</h3>" + txt;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!--Apartado 1 -->
+<test_element>This is our first element!</test_element>
+
+
+
+<!--Apartado 2 -->
+<book>
+    <chapters>
+        <name>El libro de la jungla</name>
+    </chapters>
+    <author>
+      <name>John Doe</name>
+      <address>123 Main St, Example City</address>
+    </author>
+  </book>
+  
+
+
+<!--Apartado 3 -->
+<entry no="24" date="27.10.2004">Este es el apartado 3</entry>
