@@ -32,7 +32,7 @@ Link al repositorio | Descripción
 ## Actividades XML, DOM, AJAX y Jason
 Ejercicio | Descripción
 ----------|------------
-[Ejercicio1]()
+[Ejercicio1](Acts.3Tr/Ex1,xml) | Ejercicio XML 1
 
 ## XML
 Link al repositorio | Descripción
