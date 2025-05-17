@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<publication>
-  <newsitem>
-    <source>
+<publication> <!-- Agrupa a todas las noticias publicadas -->
+  <newsitem> <!-- Representa una noticia individual -->
+    <source> <!-- Fuente de la noticia -->
       <agency>STT</agency>
       <editor>Miller</editor>
     </source>
-    <class>local</class>
+    <class>local</class> <!-- Clasificación de la noticia (local) -->
     <article>
-      <heading>Snowstorms in Lappland</heading>
-      <text>snow.html</text>
-      <summary>snowx.html</summary>
+      <heading>Snowstorms in Lappland</heading> <!-- Título de la noticia -->
+      <text>snow.html</text> <!-- Archivo HTML que contiene el texto completo de la noticia -->
+      <summary>snowx.html</summary> <!-- Archivo HTML que contiene un resumen de la noticia -->
     </article>
   </newsitem>
 </publication>
