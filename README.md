@@ -29,7 +29,7 @@ Link al repositorio | Descripción
 ----------|------------
 [Repositorio](https://github.com/jPabloASIR/DOM) | Enlace al repositorio con los ejercicios de DOM
 
-## Actividades XML, DOM, AJAX y Jason
+## Actividades XML, DOM, AJAX y JSON
 Ejercicio | Descripción
 ----------|------------
 [Ejercicio1](Acts.3Tr/Ex1.xml) | Ejercicio XML 1
@@ -43,7 +43,12 @@ Ejercicio | Descripción
 [Ejercicio9](Acts.3Tr/Ex9.html) | Ejercicio XML-DOM 2
 [Ejercicio10](Acts.3Tr/Ex10.html) | Ejercicio XML-DOM 3
 [Ejercicio11](Acts.3Tr/Ex11.html) | Ejercicio AJAX 1
-[Ejercicio11](Acts.3Tr/Ex12.html) | Ejercicio AJAX 2
+[Ejercicio12](Acts.3Tr/Ex12.html) | Ejercicio AJAX 2
+[Ejercicio13](Acts.3Tr/Ex13.html) | Ejercicio JSON 1
+[Ejercicio14](Acts.3Tr/Ex14.html) | Ejercicio JSON 2
+[Ejercicio15](Acts.3Tr/Ex15.html) | Ejercicio JSON 3
+[Ejercicio16](Acts.3Tr/Ex16.html) | Ejercicio JSON 4
+[Ejercicio17](Acts.3Tr/Ex17.html) | Ejercicio JSON 5
 
 
 ## XML
