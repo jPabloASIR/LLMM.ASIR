@@ -29,6 +29,10 @@ Link al repositorio | Descripción
 ----------|------------
 [Repositorio](https://github.com/jPabloASIR/DOM) | Enlace al repositorio con los ejercicios de DOM
 
+## Actividades XML, DOM, AJAX y Jason
+Ejercicio | Descripción
+----------|------------
+
 
 ## XML
 Link al repositorio | Descripción
